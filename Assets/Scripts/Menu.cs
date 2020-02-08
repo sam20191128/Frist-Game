@@ -21,6 +21,7 @@ public class Menu : MonoBehaviour
 
 
     public GameObject resumeGame;//继续游戏
+    public GameObject returnMenu;//返回主界面
 
 
     public void PlayGame()
@@ -59,4 +60,8 @@ public class Menu : MonoBehaviour
     //    audioMixer.SetFloat("MainVolume", slider.value);
     //}
 
+    public void ReturnMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
 }

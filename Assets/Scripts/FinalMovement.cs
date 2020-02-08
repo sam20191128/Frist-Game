@@ -19,7 +19,6 @@ public class FinalMovement : MonoBehaviour
     public Transform CellingCheck;
     private Animator anim;
     public Joystick joystick;//操纵杆
-    //public AudioSource jumpAudio, hurtAudio, cherryAudio, gemAudio, dashAudio;
 
 
     public float speed, jumpForce;
@@ -315,7 +314,7 @@ public class FinalMovement : MonoBehaviour
         }
     }
 
-    public void ReadyToDash()//准备冲锋
+    void ReadyToDash()//准备冲锋
     {
         isDashing = true;//启用
 
@@ -355,6 +354,15 @@ public class FinalMovement : MonoBehaviour
             }
         }
     }
+    public void Mobile_Dash()
+    {
+        if (Time.time >= (lastDash + dashCoolDown))//当前时间超过了最后一次执行时间+CD冷却时间
+        {
+            //可以执行Dash
+            ReadyToDash();
+        }
+    }
+
 
     void Restart()//重置场景
     {
