@@ -115,6 +115,9 @@
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
       <HintPath>E:/Unity Project/Frist-Game/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
+    <Reference Include="Editor">
+      <HintPath>E:/Unity Project/Frist-Game/Library/ScriptAssemblies/Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>E:/Unity Project/Frist-Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
@@ -133,17 +136,14 @@
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
       <HintPath>E:/Unity Project/Frist-Game/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
+    <Reference Include="XiaomiSupport">
+      <HintPath>E:/Unity Project/Frist-Game/Library/ScriptAssemblies/XiaomiSupport.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>E:/Unity Project/Frist-Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>E:/Unity Project/Frist-Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Editor">
-      <HintPath>E:/Unity Project/Frist-Game/Library/ScriptAssemblies/Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="XiaomiSupport">
-      <HintPath>E:/Unity Project/Frist-Game/Library/ScriptAssemblies/XiaomiSupport.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

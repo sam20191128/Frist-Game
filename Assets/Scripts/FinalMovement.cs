@@ -110,7 +110,6 @@ public class FinalMovement : MonoBehaviour
         if (horizontalMove != 0)
         {
             transform.localScale = new Vector3(horizontalMove, 1, 1);
-
         }
 
         Crouch();
